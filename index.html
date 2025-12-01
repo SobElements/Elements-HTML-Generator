@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moodle HTML Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        /* Tab styling */
+        .tab {
+            padding: 10px 20px;
+            margin-right: 5px;
+            border: 2px solid #ddd;
+            background-color: #f5f5f5;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .tab.active {
+            background-color: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+
+        /* Selection area */
+        #option-select {
+            width: 100%;
+            padding: 10px;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        /* Dynamic inputs */
+        #dynamic-inputs {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            min-height: 50px;
+        }
+
+        #dynamic-inputs label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        #dynamic-inputs input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        /* Generate button */
+        #generate-btn {
+            padding: 12px 30px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 20px 0;
+        }
+
+        #generate-btn:hover {
+            background-color: #006B8F;
+        }
+
+        /* Output area */
+        #output-area {
+            width: 100%;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            border: 1px solid #ddd;
+        }
+
+        h3 {
+            margin-top: 30px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Moodle HTML Generator</h1>
+
+    <!-- Tabs -->
+    <div>
+        <button id="tab-normal" class="tab active">Normal</button>
+        <button id="tab-project" class="tab">Project</button>
+    </div>
+
+   
+    <!-- Selection Area -->
+    <div>
+        <label for="option-select">Choose an option:</label>
+        <select id="option-select">
+            <option value="">--Select--</option>
+            <option value="learning">Learning Objectives</option>
+            <option value="plenary">Well Done / Plenary</option>
+            <option value="stretch">Stretch Challenge</option>
+            <option value="duration">Duration Only</option>
+            <option value="task">Task</option>
+        </select>
+    </div>
+
+    <!-- Dynamic Inputs -->
+    <div id="dynamic-inputs"></div>
+
+    <!-- Generate Button -->
+    <button id="generate-btn">Generate HTML</button>
+
+    <!-- Output Area -->
+    <h3>Generated HTML:</h3>
+    <textarea id="output-area" rows="10" cols="80" readonly></textarea>
+
+   <script src="script.js"></script>
+</body>
+</html>
