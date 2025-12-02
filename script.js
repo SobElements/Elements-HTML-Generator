@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         learning: `<div class="elements_summary">
     <h2><strong>WK ??: TITLE</strong><br></h2>
 </div>
-<div class="elements_summary_text"><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/775729211/elements%20logo%20disc.png?time=1683034751996" alt="" width="200" height="199" role="presentation" class="img-fluid atto_image_button_middle">
-    <h2 style="text-align: left; margin-left: 30px;"><span class="sr-only">Learning Objectives</span><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/775729211/learning%20objectives%20%28V2%29.png" alt="Learning Objectives" width="278" height="32" role="presentation" class="img-fluid atto_image_button_text-bottom"></h2>
+<div class="elements_summary_text"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/elements%20logo%20disc.png?forcedownload=1" alt="" width="200" height="199" role="presentation" class="img-fluid atto_image_button_middle">
+    <h2 style="text-align: left; margin-left: 30px;"><span class="sr-only">Learning Objectives</span><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/learning%20objectives%20%28V2%29.png?forcedownload=1" alt="Learning Objectives" width="278" height="32" role="presentation" class="img-fluid atto_image_button_text-bottom"></h2>
     <p style="margin-left: 30px;"></p>
     <p style="margin-left: 30px;"><strong><span style="color: #212529;">In this session you will be able to:</span></strong></p>
     <ul style="list-style-type: disc; margin-left: 20px;">
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>`,
         
         plenary: `<div class="elements_task">
-    <h4>Well Done! You have completed this week's Elements<img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/636349600/Tick.png" alt="" width="32" height="32" role="presentation" class="img-fluid atto_image_button_text-bottom"><br></h4>
+    <h4>Well Done! You have completed this week's Elements<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Tick.png?forcedownload=1" alt="" width="32" height="32" role="presentation" class="img-fluid atto_image_button_text-bottom"><br></h4>
 </div>
 <p></p>
 <p><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Plenary.png?forcedownload=1" alt="Plenary" width="70" height="70" class="img-fluid atto_image_button_middle">&nbsp;This week you have learned about:<br></p>
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </ul>
 <p></p>`,
         
-        stretch: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/650986565/stretch%20challenge.png" alt="Stretch and Challenge" width="284" height="32" class="img-fluid atto_image_button_text-bottom">
+        stretch: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/stretch%20challenge.png?forcedownload=1" alt="Stretch and Challenge" width="284" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
@@ -47,35 +47,35 @@ document.addEventListener('DOMContentLoaded', () => {
         
         duration: `<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>`,
         
-        task1: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/482747385/task1.png?time=1683034811815" alt="Task 1" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
+        task1: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task1.png?forcedownload=1" alt="Task 1" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
 <img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
 <p>Enter text here</p>`,
         
-        task2: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/943331328/task2.png" alt="Task 2" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
+        task2: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task2.png?forcedownload=1" alt="Task 2" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
 <img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
 <p>Enter text here</p>`,
         
-        task3: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/39448215/task3.png" alt="Task 3" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
+        task3: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task3.png?forcedownload=1" alt="Task 3" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
 <img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
 <p>Enter text here</p>`,
         
-        task4: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/272043464/task4.png?time=1686740015238" alt="Task 4" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
+        task4: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task4.png?forcedownload=1" alt="Task 4" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
 <img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
 <p>Enter text here</p>`,
         
-        task5: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/draftfile.php/339590/user/draft/739053615/task5.png" alt="Task 5" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
+        task5: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task5.png?forcedownload=1" alt="Task 5" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
@@ -275,4 +275,5 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Nothing to copy! Generate HTML first.');
         }
     });
+
 });
