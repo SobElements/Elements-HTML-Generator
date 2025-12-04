@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <p><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Plenary.png?forcedownload=1" alt="Plenary" width="70" height="70" class="img-fluid atto_image_button_middle">&nbsp;This week you have learned about:<br></p>
 <p></p>
 <ul>
-    <li><strong></strong><br></li>
+    <li><strong><br></strong></li>
 </ul>
 <p></p>`,
         
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div><br><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Plenary.png?forcedownload=1" alt="Plenary" width="70" height="70" class="img-fluid atto_image_button_middle">&nbsp;This week you have:<br>
 <p></p>
 <ul>
-    <li><strong></strong><br></li>
+    <li><strong><br></strong></li>
 </ul>
 <p></p>`,
         
@@ -277,4 +277,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
