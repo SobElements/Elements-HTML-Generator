@@ -27,6 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
     </ul>
     <ul></ul>
 </div>`,
+
+        sharp: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Sharp%20Starter.png?forcedownload=1" alt="sharp starter" width="240" height="32" class="img-fluid atto_image_button_middle">
+</div>
+<br>
+<p>Enter text here</p>`
+,
         
         plenary: `<div class="elements_task">
     <h4>Well Done! You have completed this week's Elements<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Tick.png?forcedownload=1" alt="" width="32" height="32" role="presentation" class="img-fluid atto_image_button_text-bottom"><br></h4>
@@ -104,6 +110,11 @@ document.addEventListener('DOMContentLoaded', () => {
     </ul>
     <p></p>
 </div>`,
+
+        sharp: `<div class="elements_task green"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Sharp%20Starter.png?forcedownload=1" alt="sharp starter" width="240" height="32" class="img-fluid atto_image_button_middle">
+</div>
+<br>
+<p>Enter text here</p>`,
         
         plenary: `<div class="elements_task green"><img src=" https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Tick.png?forcedownload=1" alt="" width="32" height="32" role="presentation" class="atto_image_button_middle">
     <h4>Well done! You have completed all of this week's Elements</h4>
@@ -216,6 +227,8 @@ document.addEventListener('DOMContentLoaded', () => {
             generatedHTML = templates.learning;
         } else if (selectedOption === 'plenary') {
             generatedHTML = templates.plenary;
+        } else if (selectedOption == 'sharp') {
+            generatedHTML = templates.sharp;
         } else if (selectedOption === 'stretch') {
             generatedHTML = templates.stretch;
         } else if (selectedOption === 'duration') {
@@ -277,5 +290,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
