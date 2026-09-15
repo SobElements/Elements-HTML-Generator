@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
-<p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: 60 minutes</span></em></strong><br></p>
+<p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: XX minutes</span></em></strong><br></p>
 <p>Enter text here</p>`,
         
         task3: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task3.png?forcedownload=1" alt="Task 3" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
