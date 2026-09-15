@@ -51,41 +51,40 @@ document.addEventListener('DOMContentLoaded', () => {
 <p></p>
 <p>Enter text here</p>`,
         
-        duration: `<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>`,
+        duration: `<p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: XX minutes</span></em></strong><br></p>`,
         
         task1: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task1.png?forcedownload=1" alt="Task 1" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
-<p></p>
-<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
+<p></p><p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: XX minutes</span></em></strong><br></p>
 <p>Enter text here</p>`,
         
         task2: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task2.png?forcedownload=1" alt="Task 2" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
-<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
+<p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: 60 minutes</span></em></strong><br></p>
 <p>Enter text here</p>`,
         
         task3: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task3.png?forcedownload=1" alt="Task 3" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
-<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
+<p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: XX minutes</span></em></strong><br></p>
 <p>Enter text here</p>`,
         
         task4: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task4.png?forcedownload=1" alt="Task 4" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
-<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
+<p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: XX minutes</span></em></strong><br></p>
 <p>Enter text here</p>`,
         
         task5: `<div class="elements_task"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/task5.png?forcedownload=1" alt="Task 5" width="104" height="32" class="img-fluid atto_image_button_text-bottom">
     <h4>Enter Task Name</h4>
 </div>
 <p></p>
-<img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Timer" width="50" height="50" class="img-fluid atto_image_button_middle">&nbsp;<strong>This task should take approximately XX mins.</strong><br><br>
+<p dir="ltr" style="text-align: left;"><img src="https://moodle.howcollege.ac.uk/pluginfile.php/169272/mod_folder/content/0/Timed%20Task.png?forcedownload=1" alt="Task time icon" width="50" height="50" class="img-fluid atto_image_button_middle"><strong><em><span class="" style="color: rgb(50, 79, 157);">Task duration: XX minutes</span></em></strong><br></p>
 <p>Enter text here</p>`
     };
 
